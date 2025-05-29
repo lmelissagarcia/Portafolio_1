@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #6CF5DA;
+	text-align: center;
+	margin: 10px;
+	font-family: Gotham;
+}
+
+h1 {
+	color: #6C8CF5;
+	text-align: center;
+}
+
+body {
+    background-color: #6CF5DA;
+    margin: 10px;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.linea {
+	background-color: #6CF5DA;
+	text-align: center;
+}
+
+#header {
+	margin: auto;
+	width: none;
+	text-align: center;
+	font-family: Schoolbook L;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.nav > li {
+	float: left;
+}
+
+.nav li a {
+	background-color: #6C8CF5;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 5px 15px;
+	display: block;
+}
+
+.nav li a:hover {
+	background-color: #BDEDF5;
+}
+
+.nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 25px;
+}
+
+.nav li:hover > ul {
+	display: block;
+}
+
+.nav li ul li {
+	position: relative;
+}
+
+.nav li ul li ul {
+	right: -120px;
+	top: 0px;
+}
